@@ -1,8 +1,8 @@
-* {
+/* * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-}
+} */
 
 body {
     display: flex;
@@ -11,46 +11,109 @@ body {
 }
 
 header {
-    padding: 20px;
+    margin-bottom: 50px;
+    padding: 0px;
     width: 100%;
+    height: 720px;
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: tomato;
+    font-family: Gill Sans;
+    font-weight: regular;
+    background-color: rgb(255, 203, 155);
     color: white;
 }
 
 div {
+    margin-bottom: 50px;
+    padding: 0px;
+    width: 100%;
+    height: 720px;
     display: flex;
+    flex-wrap: wrap;
+    font-family: Gill Sans;
+    font-weight: regular;
+    background-color: rgb(255, 203, 155);
+    color: white;
 }
 
-img {
+/* img {
     display: flex;
-}
-
-.header h1 {
-    display: flex;
+    width: 50%;
     justify-content: center;
-    font-size: 48px;
-}
-
-.header h1 {
-    color: #d9dcd6;
-}
+} */
 
 .header {
-    padding-top: 15px;
-    float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    padding: 50px;
+    font-family: BN Super-Sized;
+    font-weight: regular;
+    justify-content: flex-end;
+    align-items: center;
 }
 
-.picture {
+.intro {
+    padding: 50px;
+    font-family: BN Super-Sized;
+    font-weight: regular;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contentR {
+    width: 50%;
+    padding: 5%;
+    font-family: BN Super-Sized;
+    font-weight: regular;
+    align-items: flex-start;
+    justify-content: space-between; 
+    flex-direction: column;
+}
+
+.contentL {
+    width: 50%;
+    padding: 5%;
+    font-family: BN Super-Sized;
+    font-weight: regular;
+    align-items: flex-start;
+    justify-content: space-between; 
+    flex-direction: column;
+}
+
+.header h1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    font-size: 128px;
+    color: white;
+}
+
+.intro h1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    font-size: 128px;
+    color: white;
+}
+
+.contentR h1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    font-size: 64px;
+    color: white;
+}
+
+.contentL h1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    font-size: 64px;
+    color: white;
+}
+
+/* .picture img{
     display: flex;
     height: 150px;
     /* width: 100%; */
-    margin: 25px;
-    justify-content: center;
-}
+/* } */
 
 @media screen and (max-width: 768px) {
    
